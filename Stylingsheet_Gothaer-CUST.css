@@ -248,6 +248,21 @@ vaadin-radio-group vaadin-radio-button:first-of-type {
   padding-top: 2px;
 }
 
+/*Passt Hintergrundfarbe von Bausteintextfeldern an*/
+.html-textarea {
+  background: #f5f6f6;
+}
+
+/*Einrückung von selektierbaren Bausteinen*/
+.container_with_checkbox {
+  left: -5px;
+}
+
+/*Symbolfarbe bei änderbaren Bausteintexte (wenn noch kein Inhalt)*/
+.edit-icon-empty {
+  stroke: #00718f;
+}
+
 /*KONTEXTMENÜ FÜR DRUCKVORSCHAU*/
 
 /*Hintergrundfarbe Druckvorschau Auswahlbereich*/
@@ -294,7 +309,7 @@ vaadin-radio-group vaadin-radio-button:first-of-type {
 
 body {
   --lumo-font-family: "Open Sans", sans-serif;
-  --lumo-primary-color-10pct: #00718f !important;
+  --lumo-primary-color-10pct: #f5f6f6 !important; /*Header Highlight Color*/
   --lumo-primary-color-20pct: #00718f !important;
   --lumo-body-text-color: #00718f !important;
   --lumo-header-text-color: #00718f !important;
@@ -359,3 +374,21 @@ body {
 }
 
 
+/*label "Bausteintext" ausblenden; gezielte Anpassung Risiko1*/
+label#DynamicPanel_CC_80DynamicPanel_CC_79DynamicPanel_DC_79_C_GUI_FEUER_PFWSK_VS_WEITERE_SACHEN_ZUSATZ1_CompLabel {
+  display: none;
+}
+/*label "Bausteintext" ausblenden; gezielte Anpassung Risiko2*/
+label#DynamicPanel_CC_82DynamicPanel_CC_81DynamicPanel_DC_81_C_GUI_FEUER_PFWSK_VS_WEITERE_SACHEN_ZUSATZ2_CompLabel {
+  display: none;
+}
+
+/*label "Bausteintext" ausblenden; gezielte Anpassung Risiko3*/
+label#DynamicPanel_CC_86DynamicPanel_CC_85DynamicPanel_DC_85_C_GUI_FEUER_PFWSK_VS_WEITERE_KOSTEN_ZUSATZ1_CompLabel {
+  display: none;
+}
+
+/*label "Bausteintext" ausblenden; gezielte Anpassung Risiko4*/
+label#DynamicPanel_CC_88DynamicPanel_CC_87DynamicPanel_DC_87_C_GUI_FEUER_PFWSK_VS_WEITERE_KOSTEN_ZUSATZ2_CompLabel {
+  display: none;
+}
